@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link rel="stylesheet" href="menu.css">
+  <script src="https://kit.fontawesome.com/2ee0245f3d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="contenedor_logo ancho">
+    <div class="fondo">
+      <figure>
+        <img src="imagenes/pullrequest-logo.svg" alt="logotipo">
+      </figure>
+    </div>
+    <br>
+
+    <div class="contenedor_menu">
+<a href="#"class="boton" id="iconomenu"> <i class=" fa-solid fa-bars"></i></a>
+     
+    </div>
+   <br>
+<nav >
+  <a href="#">inicio</a>
+  <a href="#">empresa</a>
+  <a href="#">servicios</a>
+  <a href="#">clientes</a>
+  <a href="#">ubicacion</a>
+  <a href="#">contactanos</a>
+</nav>
+  </header>
+  <br>
+  <section class="contenedor_texto ancho">
+    <article>
+      <h1>creacion de paginas web</h1>
+      <br>
+      <h2>curso basico de HTML y CSS3</h2>
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae expedita corporis assumenda esse sed eos iure cumque consequatur repellendus. Ullam ipsum, voluptas ipsa accusantium maiores fuga culpa eligendi odit suscipit!</p>
+      <br>
+      <a id="leer" href="#">leer mas</a>
+    </article>
+    <figure>
+      <img id="slidefoto" src="imagenes/foto_pullrequest.svg" alt="foto de una empresa">
+    </figure>
+  </section>
+  <br><br>
+  <footer class="ancho">
+    <a href="mailto:kevin.36137@gmail.com">@kevin vargas</a>
+  </footer>
+  <br>
+  <script>
+    $('#iconomenu').click(function () {
+      $('nav').slideToggle()
+    })
+  </script>
+</body>
+</html>
